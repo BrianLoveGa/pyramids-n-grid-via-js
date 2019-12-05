@@ -1,0 +1,65 @@
+.row {
+    text-align: center;
+    margin: -10 auto;
+  }
+  
+  .board{
+    width: 400px;
+    height: 400px;
+  }
+  
+  .bbsquare {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    font-size: 0;
+    padding: 0px;
+    margin: -5px 0;
+  }
+
+  .square {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    font-size: 0;
+    padding: 0px;
+    
+  }
+  
+  .light {
+    background-color: red;
+  }
+  
+  .dark {
+    background-color: black;
+  }
+
+ 
+
+  .triangle {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(57, 124, 53);
+  }
+
+
+  .realThing{
+
+    height: 400px;
+    width: 400px;
+    margin: -50px -1px; 
+    padding: -20px;
+    position: relative;
+    
+  }
+
+  /* must need to change row or square property - above isn't moving the rows */
+
+  /* yep gotta change the squares -5 looks pretty good */
+
+  .space {
+      height: 100px;
+  }
